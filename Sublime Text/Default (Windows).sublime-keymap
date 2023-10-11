@@ -1,0 +1,15 @@
+// Sublime Text keybindings
+
+[
+    // Build the project
+    {
+        "keys": ["alt+b"],
+        "command": "build"
+    },
+
+    // Toggle the sidebar
+    {
+        "keys": ["ctrl+b"],
+        "command": "toggle_side_bar"
+    }
+]

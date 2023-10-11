@@ -1,0 +1,52 @@
+// Sublime Text settings
+
+{
+    ////////////////////////////////////////////////
+    //               Theme settings               //
+    ////////////////////////////////////////////////
+
+    "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+    "theme": "Material-Theme.sublime-theme",
+
+    ///////////////////////////////////////////////
+    //               Font settings               //
+    ///////////////////////////////////////////////
+
+    "font_size": 14,
+
+    //////////////////////////////////////////////
+    //               Tab settings               //
+    //////////////////////////////////////////////
+
+    "tab_size": 4,
+    "translate_tabs_to_spaces": true,
+
+    "shift_tab_unindent": true,
+    "detect_indentation": false,
+
+    ////////////////////////////////////////////////////
+    //               Highlight settings               //
+    ////////////////////////////////////////////////////
+
+    // Highlight all lines with a caret
+    "highlight_line": true,
+
+    /////////////////////////////////////////////////
+    //               Window settings               //
+    /////////////////////////////////////////////////
+
+    "themed_title_bar": false,
+
+    "show_encoding": true,
+    "show_line_endings": false,
+
+    "show_full_path": false,
+    "show_project_first": true,
+
+    ////////////////////////////////////////////////////////
+    //               Auto-complete settings               //
+    ////////////////////////////////////////////////////////
+
+    "auto_complete_commit_on_tab": true,
+    "auto_complete_cycle": true
+}
