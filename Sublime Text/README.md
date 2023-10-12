@@ -19,3 +19,11 @@ This configuration is based on Sublime Text **Build 4152**.
 - [LSP-jdtls](https://packagecontrol.io/packages/LSP-jdtls)
 - [LSP-json](https://packagecontrol.io/packages/LSP-json)
 - [LSP-pyright](https://packagecontrol.io/packages/LSP-pyright)
+
+### Tools
+
+- [ColorPicker](https://packagecontrol.io/packages/ColorPicker)
+- [DoxyDoxygen](https://packagecontrol.io/packages/DoxyDoxygen)
+- [GitGutter](https://packagecontrol.io/packages/GitGutter)
+- [LaTeXTools](https://packagecontrol.io/packages/LaTeXTools)
+- [MarkdownPreview](https://packagecontrol.io/packages/MarkdownPreview)

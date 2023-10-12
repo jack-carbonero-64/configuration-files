@@ -1,0 +1,15 @@
+// DoxyDoxygen package settings
+
+{
+    ///////////////////////////////////////////////////////////
+    //               Custom languages profiles               //
+    ///////////////////////////////////////////////////////////
+
+    "profiles": [
+        {
+            "languages": ["python", "cython"],
+            "parsers": ["LanguagePython"],
+            "doc_styles": ["Doxygen"]
+        }
+    ]
+}
