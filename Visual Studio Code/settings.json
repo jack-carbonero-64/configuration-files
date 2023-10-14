@@ -1,0 +1,67 @@
+// Visual Studio Code settings
+
+{
+    //////////////////////////////////////////////////
+    //               General settings               //
+    //////////////////////////////////////////////////
+
+    "telemetry.telemetryLevel": "off",
+
+    "window.newWindowDimensions": "maximized",
+    "window.restoreWindows": "none",
+
+    "workbench.enableExperiments": false,
+    "workbench.startupEditor": "none",
+
+    ////////////////////////////////////////////////
+    //               Theme settings               //
+    ////////////////////////////////////////////////
+
+    "workbench.colorTheme": "Dracula",
+
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.hidesExplorerArrows": true,
+
+    ///////////////////////////////////////////////
+    //               Font settings               //
+    ///////////////////////////////////////////////
+
+    // Download "JetBrains Mono" on "https://www.jetbrains.com/fr-fr/lp/mono/"
+    "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace",
+
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 25,
+
+    /////////////////////////////////////////////////
+    //               Editor settings               //
+    /////////////////////////////////////////////////
+
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.suggest.insertMode": "replace",
+
+    "workbench.editor.enablePreview": false,
+
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+
+    "files.hotExit": "off",
+
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+
+    "editor.linkedEditing": true,
+    "editor.mouseWheelZoom": true,
+    "editor.occurrencesHighlight": false,
+    "editor.renderWhitespace": "selection",
+
+    //////////////////////////////////////////////////
+    //               Sidebar settings               //
+    //////////////////////////////////////////////////
+
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+
+    "workbench.tree.indent": 20,
+    "workbench.tree.renderIndentGuides": "always",
+    "window.menuBarVisibility": "compact"
+}

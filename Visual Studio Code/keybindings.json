@@ -1,0 +1,22 @@
+// Visual Studio Code keybindings
+
+[
+    // Show in file explorer
+    {
+        "key": "ctrl+shift+o",
+        "command": "revealFileInOS"
+    },
+
+    // Go to symbol in file
+    {
+        "key": "ctrl+r",
+        "command": "workbench.action.gotoSymbol"
+    },
+
+    // Expand current selection to the next boundary
+    {
+        "key": "alt+d",
+        "command": "editor.action.smartSelect.expand",
+        "when": "editorTextFocus"
+    }
+]
