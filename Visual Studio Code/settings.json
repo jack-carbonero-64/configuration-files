@@ -69,6 +69,8 @@
     //               Tools settings               //
     ////////////////////////////////////////////////
 
+    "autopep8.args": ["--max-line-length", "120"],
+
     "Notes.notesLocation": "c:\\Users\\Jack CARBONERO\\Documents\\Travail\\sticky-notes",
 
     "path-intellisense.autoSlashAfterDirectory": true,
@@ -99,5 +101,9 @@
 
     "[markdown]": {
         "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    },
+
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8"
     }
 }

@@ -45,3 +45,15 @@ This configuration is based on Visual Studio Code **Version 1.83.1**.
 
 - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+
+### Python
+
+- [autoDocstring - Python Docstring Generator](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring)
+- [autopep8](https://marketplace.visualstudio.com/items?itemName=ms-python.autopep8)
+- [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
+- [Jupyter Cell Tags](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.vscode-jupyter-cell-tags)
+- [Jupyter Keymap](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter-keymap)
+- [Jupyter Notebook Renderers](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter-renderers)
+- [Jupyter Slide Show](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.vscode-jupyter-slideshow)
+- [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
+- [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
