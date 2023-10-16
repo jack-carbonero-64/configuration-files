@@ -22,3 +22,7 @@ This configuration is based on Visual Studio Code **Version 1.83.1**.
 - [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
 - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [Regex Previewer](https://marketplace.visualstudio.com/items?itemName=chrmarti.regex)
+
+### LaTeX
+
+- [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
