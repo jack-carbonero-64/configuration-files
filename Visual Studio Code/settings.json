@@ -17,7 +17,7 @@
     //               Theme settings               //
     ////////////////////////////////////////////////
 
-    "workbench.colorTheme": "Dracula",
+    "workbench.colorTheme": "SynthWave '84",
 
     "workbench.iconTheme": "material-icon-theme",
     "material-icon-theme.hidesExplorerArrows": true,
@@ -28,9 +28,10 @@
 
     // Download "JetBrains Mono" on "https://www.jetbrains.com/fr-fr/lp/mono/"
     "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace",
-
     "editor.fontLigatures": true,
-    "editor.lineHeight": 25,
+
+    "editor.fontSize": 16,
+    "editor.lineHeight": 1.8,
 
     /////////////////////////////////////////////////
     //               Editor settings               //
@@ -51,12 +52,20 @@
 
     "editor.linkedEditing": true,
     "editor.mouseWheelZoom": true,
-    "editor.occurrencesHighlight": false,
+    "editor.occurrencesHighlight": "off",
     "editor.renderWhitespace": "selection",
+    "editor.cursorBlinking": "solid",
+
+    "editor.stickyScroll.enabled": false,
+    "editor.smoothScrolling": true,
+
+    "editor.minimap.enabled": false,
 
     //////////////////////////////////////////////////
     //               Sidebar settings               //
     //////////////////////////////////////////////////
+
+    "explorer.compactFolders": false,
 
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
@@ -64,6 +73,7 @@
     "workbench.tree.indent": 20,
     "workbench.tree.renderIndentGuides": "always",
     "window.menuBarVisibility": "compact",
+    "workbench.view.alwaysShowHeaderActions": true,
 
     ////////////////////////////////////////////////
     //               Tools settings               //
@@ -78,6 +88,8 @@
 
     "prettier.printWidth": 120,
     "prettier.tabWidth": 4,
+
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
 
     /////////////////////////////////////////////////////////////
     //               Languages default formatter               //

@@ -1,18 +1,19 @@
 # Visual Studio Code configuration
 
-This configuration is based on Visual Studio Code **Version 1.83.1**.
+This configuration is based on Visual Studio Code **Version 1.89.1**.
 
 ## Extensions list
 
 ### Theme
 
-- [Dracula Official](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula)
 - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+- [SynthWave '84](https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode)
 
 ### Tools
 
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 - [CodeSnap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap)
+- [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
 - [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 - [IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
 - [IntelliCode API Usage Examples](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.intellicode-api-usage-examples)
@@ -22,6 +23,11 @@ This configuration is based on Visual Studio Code **Version 1.83.1**.
 - [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
 - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [Regex Previewer](https://marketplace.visualstudio.com/items?itemName=chrmarti.regex)
+- [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
+
+### CSS
+
+- [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
 
 ### LaTeX
 
@@ -57,3 +63,8 @@ This configuration is based on Visual Studio Code **Version 1.83.1**.
 - [Jupyter Slide Show](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.vscode-jupyter-slideshow)
 - [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
 - [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+- [Python Debugger](https://marketplace.visualstudio.com/items?itemName=ms-python.debugpy)
+
+### XML
+
+- [XML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml)
