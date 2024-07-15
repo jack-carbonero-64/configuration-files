@@ -1,16 +1,11 @@
 // Visual Studio Code keybindings
 
 [
-    // Show in file explorer
-    {
-        "key": "ctrl+shift+o",
-        "command": "revealFileInOS"
-    },
-
     // Go to symbol in file
     {
         "key": "ctrl+r",
-        "command": "workbench.action.gotoSymbol"
+        "command": "workbench.action.gotoSymbol",
+        "when": "!accessibilityHelpIsShown && !accessibleViewIsShown"
     },
 
     // Expand current selection to the next boundary
@@ -18,5 +13,19 @@
         "key": "alt+d",
         "command": "editor.action.smartSelect.expand",
         "when": "editorTextFocus"
+    },
+
+    // Toggle terminal view
+    {
+        "key": "ctrl+t",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
+
+    // Remove bolding shortcut for markdown
+    {
+        "key": "ctrl+b",
+        "command": "-markdown.extension.editing.toggleBold",
+        "when": "editorTextFocus && !editorReadonly && editorLangId =~ /^markdown$|^rmd$|^quarto$/"
     }
 ]
