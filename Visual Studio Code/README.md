@@ -1,6 +1,6 @@
 # Visual Studio Code configuration
 
-This configuration is based on Visual Studio Code **Version 1.93.1**.
+This configuration is based on Visual Studio Code **Version 1.94.2**.
 
 ## Extensions list
 
@@ -14,6 +14,7 @@ This configuration is based on Visual Studio Code **Version 1.93.1**.
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 - [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 - [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
+- [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 - [IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
 - [IntelliCode API Usage Examples](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.intellicode-api-usage-examples)
 - [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)

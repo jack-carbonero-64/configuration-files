@@ -63,6 +63,7 @@
     "editor.wordBasedSuggestions": "off",
 
     "workbench.editor.enablePreview": false,
+    "editor.minimap.enabled": false,
 
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
@@ -145,6 +146,17 @@
     "sqltools.autoOpenSessionFiles": false,
 
     "yaml.format.printWidth": 120,
+
+    //////////////////////////////////////////////
+    //               Git settings               //
+    //////////////////////////////////////////////
+
+    "gitlens.codeLens.enabled": false,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.statusBar.enabled": false,
+
+    "gitlens.plusFeatures.enabled": false,
+    "gitlens.telemetry.enabled": false,
 
     /////////////////////////////////////////////////////////////
     //               Languages default formatter               //
