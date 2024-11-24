@@ -67,17 +67,6 @@
         "when": "view.workbench.views.extensions.installed.visible"
     },
 
-    // Toggle SQLTools view
-    {
-        "key": "alt+6",
-        "command": "workbench.view.extension.sqltoolsActivityBarContainer"
-    },
-    {
-        "key": "alt+6",
-        "command": "workbench.action.toggleSidebarVisibility",
-        "when": "view.sqltoolsViewConnectionExplorer.visible"
-    },
-
     // Quick open
     {
         "key": "ctrl+e",
@@ -140,6 +129,20 @@
         "command": "workbench.action.splitEditorRight"
     },
 
+    // Show quick fixes
+    {
+        "key": "ctrl+oem_period",
+        "command": "problems.action.showQuickFixes",
+        "when": "problemFocus"
+    },
+
+    // Comment line
+    {
+        "key": "ctrl+oem_2",
+        "command": "editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+
     // Remove default keybindings
     {
         "key": "ctrl+r",
@@ -153,5 +156,9 @@
         "key": "ctrl+b",
         "command": "-markdown.extension.editing.toggleBold",
         "when": "editorTextFocus && !editorReadonly && editorLangId =~ /^markdown$|^rmd$|^quarto$/"
+    },
+    {
+        "key": "ctrl+shift+p",
+        "command": "-workbench.action.showCommands"
     }
 ]

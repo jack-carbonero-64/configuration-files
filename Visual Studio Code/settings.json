@@ -18,14 +18,11 @@
     "security.workspace.trust.startupPrompt": "always",
     "extensions.ignoreRecommendations": true,
 
-    "workbench.settings.openDefaultKeybindings": true,
-    "workbench.settings.openDefaultSettings": true,
-
     ////////////////////////////////////////////////
     //               Theme settings               //
     ////////////////////////////////////////////////
 
-    "workbench.colorTheme": "Gruvbox Material Dark",
+    "workbench.colorTheme": "Dracula Theme",
     "workbench.iconTheme": "material-icon-theme",
 
     "material-icon-theme.hidesExplorerArrows": true,
@@ -35,8 +32,6 @@
 
     "window.dialogStyle": "custom",
     "files.simpleDialog.enable": true,
-
-    "breadcrumbs.enabled": false,
 
     ///////////////////////////////////////////////
     //               Font settings               //
@@ -133,7 +128,7 @@
     //               Tools settings               //
     ////////////////////////////////////////////////
 
-    "autopep8.args": ["--max-line-length", "120"],
+    "ruff.lineLength": 120,
 
     "errorLens.messageBackgroundMode": "none",
 
@@ -142,8 +137,6 @@
 
     "prettier.printWidth": 120,
     "prettier.tabWidth": 4,
-
-    "sqltools.autoOpenSessionFiles": false,
 
     "yaml.format.printWidth": 120,
 
@@ -154,7 +147,6 @@
     "gitlens.codeLens.enabled": false,
     "gitlens.currentLine.enabled": false,
     "gitlens.statusBar.enabled": false,
-
     "gitlens.plusFeatures.enabled": false,
     "gitlens.telemetry.enabled": false,
 
@@ -183,10 +175,9 @@
     },
 
     "[python]": {
-        "editor.defaultFormatter": "ms-python.autopep8"
-    },
-
-    "[django-html]": {
-        "editor.defaultFormatter": "monosans.djlint"
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
     }
 }
