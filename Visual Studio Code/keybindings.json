@@ -67,6 +67,28 @@
         "when": "view.workbench.views.extensions.installed.visible"
     },
 
+    // Toggle Copilot chat view
+    {
+        "key": "alt+6",
+        "command": "workbench.panel.chat"
+    },
+    {
+        "key": "alt+6",
+        "command": "workbench.action.toggleSidebarVisibility",
+        "when": "view.workbench.panel.chat.view.copilot.visible"
+    },
+
+    // Toggle Copilot edit view
+    {
+        "key": "alt+7",
+        "command": "workbench.panel.chatEditing"
+    },
+    {
+        "key": "alt+7",
+        "command": "workbench.action.toggleSidebarVisibility",
+        "when": "view.workbench.panel.chat.view.edits.visible"
+    },
+
     // Quick open
     {
         "key": "ctrl+e",
@@ -160,5 +182,9 @@
     {
         "key": "ctrl+shift+p",
         "command": "-workbench.action.showCommands"
+    },
+    {
+        "key": "ctrl+m",
+        "command": "-editor.action.toggleTabFocusMode"
     }
 ]

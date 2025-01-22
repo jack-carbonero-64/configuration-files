@@ -128,8 +128,6 @@
     //               Tools settings               //
     ////////////////////////////////////////////////
 
-    "ruff.lineLength": 120,
-
     "errorLens.messageBackgroundMode": "none",
 
     "path-intellisense.autoSlashAfterDirectory": true,
@@ -137,6 +135,8 @@
 
     "prettier.printWidth": 120,
     "prettier.tabWidth": 4,
+
+    "ruff.lineLength": 120,
 
     "yaml.format.printWidth": 120,
 
@@ -179,5 +179,11 @@
         "editor.codeActionsOnSave": {
             "source.organizeImports": "explicit"
         }
-    }
+    },
+
+    ////////////////////////////////////////
+    //               Python               //
+    ////////////////////////////////////////
+
+    "python.analysis.typeCheckingMode": "strict"
 }
