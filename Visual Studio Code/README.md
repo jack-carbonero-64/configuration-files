@@ -1,6 +1,6 @@
 # Visual Studio Code configuration
 
-This configuration is based on Visual Studio Code **Version 1.96.4**.
+This configuration is based on Visual Studio Code **Version 1.97.2**.
 
 ## Extensions list
 

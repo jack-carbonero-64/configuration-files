@@ -76,7 +76,8 @@
 
     "editor.wordWrap": "on",
 
-    "editor.stickyScroll.enabled": false,
+    "editor.stickyScroll.defaultModel": "indentationModel",
+
     "editor.smoothScrolling": true,
     "editor.mouseWheelZoom": true,
 
@@ -87,9 +88,6 @@
     //////////////////////////////////////////////////
     //               Sidebar settings               //
     //////////////////////////////////////////////////
-
-    "workbench.sideBar.location": "right",
-    "workbench.activityBar.location": "top",
 
     "explorer.compactFolders": false,
     "explorer.copyRelativePathSeparator": "/",
@@ -177,7 +175,8 @@
     "[python]": {
         "editor.defaultFormatter": "charliermarsh.ruff",
         "editor.codeActionsOnSave": {
-            "source.organizeImports": "explicit"
+            "source.organizeImports": "explicit",
+            "source.unusedImports": "explicit"
         }
     },
 
